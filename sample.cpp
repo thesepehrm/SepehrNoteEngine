@@ -5,7 +5,8 @@ void xmasSong();
 SepehrNoteEngine song(150);
 int main()
 {
-	printf("Playing a loop of \"We wish you a merry christmass\"");
+	printf("Sepehr Mohammadi presents\n");
+	printf("Playing a loop of \"We wish you a merry christmas\"");
 	while (true)
 	{
 		//jingleBells();
