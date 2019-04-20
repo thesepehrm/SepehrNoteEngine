@@ -1,5 +1,8 @@
-#include <Windows.h>
 #include "SepehrNoteEngine.h"
+
+#include "stdbeep.h"
+using std::Sleep;
+using std::Beep;
 
 void jingleBells();
 void xmasSong();
@@ -10,7 +13,7 @@ SepehrNoteEngine song(100);
 int main()
 {
 	printf("Sepehr Mohammadi Presents...\n");
-	printf("Playing a loop of \"O Holy Night\"");
+	printf("Playing a loop of \"O Holy Night\"\n");
 	while (true)
 	{
 		//jingleBells();
